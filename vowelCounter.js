@@ -2,7 +2,9 @@
 
 const vowelCounter = function(data) {
   // Put your solution here
-};
+  return data.split("").length;
+}
+
 
 console.log(vowelCounter("orange"));
 console.log(vowelCounter("Cornerstone"));
